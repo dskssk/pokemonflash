@@ -18,5 +18,8 @@
   "homepage": "https://github.com/dskssk/pokemonflash#readme",
   "devDependencies": {
     "@types/jquery": "^2.0.37"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
   }
 }
