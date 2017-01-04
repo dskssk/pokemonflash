@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', function() {
-  const FPS = 30;
+  const FPS = 1;
   const target: HTMLElement[] = [].slice.call(document.querySelectorAll('.pokemonflash'));
   if (target.length === 0) return;
   window.setInterval(() => {
