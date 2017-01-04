@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dskssk/pokemonflash/issues"
   },
-  "homepage": "https://github.com/dskssk/pokemonflash#readme"
+  "homepage": "https://github.com/dskssk/pokemonflash#readme",
+  "devDependencies": {
+    "@types/jquery": "^2.0.37"
+  }
 }
