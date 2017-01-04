@@ -5,18 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>pokemonflash</title>
   </head>
-  <body>
-    
-    <script>
-      window.addEventListener('DOMContentLoaded', function() {
-        var FPS = 30;
-        window.setInterval(function(){
-          var oldColor = document.body.style.backgroundColor; 
-          var newColor = oldColor === 'red' ? 'blue' : 'red';
-          document.body.style.backgroundColor = newColor;
-        }, 1000 / FPS);
-      });
-    </script>
-
+  <body class="pokemonflash">
+    <script src="./pokemonflash.js"></script>
   </body>
 </html>
